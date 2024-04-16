@@ -1,10 +1,10 @@
 {
-  "name": "homebridge-cool-automation",
-  "description": "Homebridge plugin for Cool Automation - HVAC Systems Controller",
-  "version": "1.0.3",
+  "name": "homebridge-touchwand-coolmaster",
+  "description": "Homebridge plugin for Cool Master",
+  "version": "0.0.8",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nitaybz/homebridge-cool-automation.git"
+    "url": " git://github.com/zeev-mindali/touchwand-coolmaster.git"
   },
   "license": "GNU",
   "preferGlobal": true,
@@ -14,10 +14,11 @@
     "cool-automation",
     "cool-master",
     "coolmaster",
-    "smart-ac"
+    "smart-ac",
+    "touchwand"
   ],
   "bugs": {
-    "url": "https://github.com/nitaybz/homebridge-cool-automation/issues"
+    "url": "https://github.com/zeev-mindali/touchwand-coolmaster.git/issues"
   },
   "engines": {
     "node": ">=10.17.0",
@@ -33,19 +34,5 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": ""
-  },
-  "funding": [
-    {
-      "type": "paypal",
-      "url": "https://paypal.me/nitaybz"
-    },
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/nitaybz"
-    },
-    {
-      "type": "kofi",
-      "url": "https://ko-fi.com/nitaybz"
-    }
-  ]
+  }
 }
